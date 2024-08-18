@@ -1,0 +1,119 @@
+/* 
+    Auteur: FauZaPespi
+    Date: 18/08/2024 | 15h40
+    Website: https://fauza.fr
+    Détail [FR]: Un simple Captcha qui pourrait ressembler à un crochetage
+    Detail [EN]: A simple Captcha that could look like a lockpick
+    File: styles.css
+*/
+
+#indicator {
+    width: 80%;
+    height: 10px;
+    background-color: #e74c3c;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c3e50;
+    font-family: Arial, sans-serif;
+}
+
+.lock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lock {
+    background-color: #34495e;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lock-body {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.lock-cylinder {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background-color: #bdc3c7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#lockpick {
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    background: #95a5a6;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+}
+
+#lockpick::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #e74c3c;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#lockpick::-webkit-slider-thumb:hover {
+    width: 30px;
+    height: 30px;
+    transition: all 500ms ease;
+    cursor: grab;
+}
+
+#submit {
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+#submit:hover {
+    background-color: #c0392b;
+}
+
+h1 {
+    color: #fff;
+    margin: 50px auto;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}

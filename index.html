@@ -1,0 +1,33 @@
+<!--
+    Auteur: FauZaPespi
+    Date: 18/08/2024 | 15h40
+    Website: https://fauza.fr
+    Détail [FR]: Un simple Captcha qui pourrait ressembler à un crochetage
+    Detail [EN]: A simple Captcha that could look like a lockpick
+    File: index.html
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔑 Lockpick Challenge 🔑</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pass the captcha</h1>
+    <div class="lock-container">
+        <div class="lock">
+            <div class="lock-body">
+                <div class="lock-cylinder">
+                    <input type="range" id="lockpick" min="0" max="100" step="5">
+                </div>
+                <div id="indicator"></div>
+            </div>
+            <button id="submit">Unlock</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
