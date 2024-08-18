@@ -8,10 +8,10 @@
 <p align="center">
 A simple Captcha that could look like a lockpick
 
-
+<br/>
+<br/>
+<a href="http://lockpick.fauza.fr">View Demo</a>  
   
-
-
 </p>
 </div>
 
